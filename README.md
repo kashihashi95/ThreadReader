@@ -21,6 +21,10 @@ Long Reddit threads are good listening but bad reading on a phone screen, and th
 
 Everything runs on the device by default: fetching, text clean-up, speech synthesis and playback. The design also supports an optional self-hosted backend that runs a larger voice model and LLM rewriting off the phone, which is faster and saves battery (see [ADR-007](docs/adr/ADR-007-personal-server-build.md) and [ADR-008](docs/adr/ADR-008-server-playlist.md)). That backend isn't included in this repository.
 
+## Where content comes from
+
+ThreadReader reads public Reddit threads through community-run [Redlib](https://github.com/redlib-org/redlib) mirrors, failing over between them if one is down. It doesn't use Reddit's official API and doesn't sign in to Reddit. It is meant for personal use: listening to public threads yourself.
+
 ## Tech stack
 
 - Kotlin, Jetpack Compose (Material 3), Kotlin coroutines and serialization
@@ -62,7 +66,7 @@ The model files and bundletool are not committed; `get_models` puts them in `sup
 
 - **Debug builds need no configuration.** Create `local.properties` with your `sdk.dir` if Android Studio hasn't.
 - **Release signing:** copy [`secrets.properties.example`](secrets.properties.example) to `secrets.properties` (gitignored) and fill in your own keystore details.
-- **Reddit access:** no API key is needed; by default the app reads public threads through community Reddit mirrors, with failover between them.
+- **Reddit access:** nothing to configure; no API key or Reddit account is needed. Threads come from community Redlib mirrors (see [Where content comes from](#where-content-comes-from)).
 
 ## How I built it
 
