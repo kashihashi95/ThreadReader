@@ -32,6 +32,16 @@ Everything runs on the device by default: fetching, text clean-up, speech synthe
 
 ThreadReader reads public Reddit threads through community-run [Redlib](https://github.com/redlib-org/redlib) mirrors, failing over between them if one is down. It doesn't use Reddit's official API and doesn't sign in to Reddit. It is meant for personal use: listening to public threads yourself.
 
+## Privacy
+
+What leaves the phone, checked against the code:
+
+- **Thread and subreddit fetches** go over HTTPS to the community Redlib mirrors `red.artemislena.eu`, `safereddit.com`, `reddit.rtrace.io` and `redlib.catsarch.com`, tried in that order.
+- **Share links** (`redd.it` or `reddit.com/.../s/...`) may first be requested from `reddit.com` or `redd.it` to follow the redirect to the thread; if that fails, the mirrors resolve them. Links that already point to a thread aren't requested from Reddit.
+- Every request is a plain GET with the user agent `android:com.redder:v1.0.0`. No cookies, credentials or identifiers are added.
+- There is no account and no sign-in, and no analytics or crash-reporting library is included. The app's dependencies are AndroidX/Jetpack Compose, Media3, Kotlin coroutines and serialization, OkHttp and ONNX Runtime.
+- Speech is generated on the phone. Your subreddit list, settings and listening progress are stored only on the phone.
+
 ## Tech stack
 
 - Kotlin, Jetpack Compose (Material 3), Kotlin coroutines and serialization
