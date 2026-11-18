@@ -1,0 +1,19 @@
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+android.useAndroidX=true
+kotlin.code.style=official
+
+# -----------------------------------------------------------------------------
+# Release Signing Configuration
+# Provide keystore file path (relative to root or absolute) and credentials.
+# If unset or keystore file does not exist, release builds gracefully fall back to debug signing.
+# -----------------------------------------------------------------------------
+RELEASE_STORE_FILE=
+RELEASE_STORE_PASSWORD=
+RELEASE_KEY_ALIAS=
+RELEASE_KEY_PASSWORD=
+
+# Alternative environment variable / property names supported:
+# KEYSTORE_PATH=
+# KEYSTORE_PASSWORD=
+# KEY_ALIAS=
+# KEY_PASSWORD=

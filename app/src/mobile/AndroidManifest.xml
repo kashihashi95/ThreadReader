@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:label="@string/app_name"
+        tools:replace="android:label">
+        <!-- Folding the phone only changes its layout, so the screen is not rebuilt. -->
+        <activity
+            android:name="com.redder.deck.NowPlayingActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.redder.local.PlaylistListActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
+            android:exported="false" />
+    </application>
+
+</manifest>

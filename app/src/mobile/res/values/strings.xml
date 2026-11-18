@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThreadReader</string>
+    <string name="dashboard_tagline">Reddit threads, read aloud on this phone</string>
+    <string name="how_to_use_body">Share a Reddit thread to ThreadReader from any app, or paste a link above.</string>
+    <string name="notification_channel_name">ThreadReader Audio Playback</string>
+    <string name="notification_channel_description">ThreadReader audio playback controls and status</string>
+
+    <string name="queue_no_new_posts">Nothing new in the playlist</string>
+    <string name="playlist_empty">Nothing to play yet. The list fills in over about a minute, a page at a time.</string>
+    <string name="playlist_offline">Couldn\'t reach the mirrors. Showing the last list; it refreshes when they are back.</string>
+    <string name="playlist_state_new">new</string>
+    <string name="playlist_length_unknown">length not known yet</string>
+    <string name="playlist_list_title">Playlist (%1$d)</string>
+    <string name="now_playing_unreachable">Couldn\'t reach the mirrors. Showing the last list.</string>
+    <string name="now_playing_empty">Nothing to play yet. The list fills in over about a minute, a page at a time.</string>
+</resources>

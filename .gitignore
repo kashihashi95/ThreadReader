@@ -1,0 +1,31 @@
+.gradle/
+build/
+**/build/
+*.iml
+.idea/
+local.properties
+secrets.properties
+.kotlin/
+lib/
+__pycache__/
+graphify-out/
+*.keystore
+*.jks
+kokoro.onnx
+temp_helper.py
+voices.bin
+models/
+qwen_subagent.py
+
+# Local-only files
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Supertonic voice model: downloaded by scripts/get_models.sh or .ps1, never committed
+supertonic_assets/src/main/assets/supertonic/
+scripts/bundletool.jar
+*.apks

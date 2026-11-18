@@ -1,0 +1,157 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "id": "post_deep_nesting",
+            "author": "curious_reader",
+            "title": "A very long debate about Android architecture",
+            "selftext": "Let's see how deep this discussion thread goes.",
+            "score": 120,
+            "num_comments": 15,
+            "created_utc": 1726832000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t1",
+          "data": {
+            "id": "c_bot_sticky",
+            "author": "AutoModerator",
+            "body": "I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+            "score": 1,
+            "depth": 0,
+            "replies": ""
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "id": "c_deleted",
+            "author": "[deleted]",
+            "body": "[deleted]",
+            "score": 0,
+            "depth": 0,
+            "replies": ""
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "id": "c_removed",
+            "author": "spammer_user",
+            "body": "[removed]",
+            "score": -5,
+            "depth": 0,
+            "replies": ""
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "id": "c_deep_0",
+            "author": "speaker_root",
+            "body": "Level 0: Root conversational argument.",
+            "score": 300,
+            "depth": 0,
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "id": "c_deep_1",
+                      "author": "speaker_child_1",
+                      "body": "Level 1: Counter argument.",
+                      "score": 150,
+                      "depth": 1,
+                      "replies": {
+                        "kind": "Listing",
+                        "data": {
+                          "children": [
+                            {
+                              "kind": "t1",
+                              "data": {
+                                "id": "c_deep_2",
+                                "author": "speaker_root",
+                                "body": "Level 2: Rebuttal.",
+                                "score": 90,
+                                "depth": 2,
+                                "replies": {
+                                  "kind": "Listing",
+                                  "data": {
+                                    "children": [
+                                      {
+                                        "kind": "t1",
+                                        "data": {
+                                          "id": "c_deep_3",
+                                          "author": "speaker_child_1",
+                                          "body": "Level 3: Continuing back and forth.",
+                                          "score": 50,
+                                          "depth": 3,
+                                          "replies": {
+                                            "kind": "Listing",
+                                            "data": {
+                                              "children": [
+                                                {
+                                                  "kind": "t1",
+                                                  "data": {
+                                                    "id": "c_deep_4",
+                                                    "author": "speaker_tangent",
+                                                    "body": "Level 4: Branch depth exceeds reasonable listening threshold.",
+                                                    "score": 5,
+                                                    "depth": 4,
+                                                    "replies": {
+                                                      "kind": "Listing",
+                                                      "data": {
+                                                        "children": [
+                                                          {
+                                                            "kind": "t1",
+                                                            "data": {
+                                                              "id": "c_deep_5",
+                                                              "author": "speaker_rabbit_hole",
+                                                              "body": "Level 5: Deep rabbit hole that should be pruned.",
+                                                              "score": 1,
+                                                              "depth": 5,
+                                                              "replies": ""
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

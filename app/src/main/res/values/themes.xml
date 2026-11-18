@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme. Compose draws the UI (ThreadReaderTheme); this only covers the window
+         background and launch frames so there is no white flash in dark mode. -->
+    <style name="Theme.ThreadReader" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:colorAccent">@color/brand_accent</item>
+    </style>
+</resources>

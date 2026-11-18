@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThreadReader</string>
+    <string name="disclaimer">ThreadReader is an independent dialogue reader and text-to-speech companion. It is not affiliated with, endorsed by, or sponsored by Reddit Inc.</string>
+    <string name="not_reddit_link">Not a Reddit thread link</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_tagline">Reddit threads, read aloud by on-device voices</string>
+    <string name="preparing_voices_title">Preparing voices…</string>
+    <string name="preparing_voices_body">Setting up on-device voices. This only happens once.</string>
+    <string name="notification_permission_body">Allow notifications to get playback controls in the shade and on the lock screen.</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_open_settings">Settings</string>
+    <string name="play_card_title">Play a thread</string>
+    <string name="url_field_label">Reddit link</string>
+    <string name="url_field_placeholder">https://www.reddit.com/r/…</string>
+    <string name="action_paste_link">Paste link</string>
+    <string name="action_play">Play</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="playback_started">Playing — check the notification or floating player</string>
+    <string name="error_empty_url">Paste a Reddit thread link first.</string>
+    <string name="error_invalid_url">That isn\'t a Reddit link. Use an https link from reddit.com or redd.it.</string>
+    <string name="subs_card_title">Subreddits</string>
+    <string name="subs_field_label">Add a subreddit</string>
+    <string name="subs_field_placeholder">r/BestofRedditorUpdates</string>
+    <string name="subs_add">Add</string>
+    <string name="subs_error_invalid">That isn\'t a subreddit name. Try r/Name, Name or a subreddit link.</string>
+    <string name="subs_error_duplicate">That subreddit is already on the list.</string>
+    <string name="subs_name">r/%1$s</string>
+    <string name="subs_played_count">Played: %1$d</string>
+    <string name="subs_reset">Reset</string>
+    <string name="subs_remove">Remove r/%1$s</string>
+    <string name="subs_select_all">Select all</string>
+    <string name="subs_select_none">Select none</string>
+    <string name="subs_forget_all">Forget played posts</string>
+    <string name="subs_play">Play subreddits</string>
+    <string name="subs_error_none_selected">Select at least one subreddit first.</string>
+    <string name="action_next_post">Next post</string>
+    <string name="action_done">Done</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_now_playing">Now playing</string>
+    <string name="action_stop">Stop</string>
+    <string name="queue_now_playing">r/%1$s: %2$s</string>
+    <string name="queue_loading_next">Finding the next post…</string>
+    <string name="queue_no_new_posts">No new posts in your selected subs</string>
+    <string name="queue_all_failed">Couldn\'t load your selected subs. Mirrors may be down, try again.</string>
+    <string name="settings_title">Settings</string>
+    <string name="read_usernames_title">Read usernames</string>
+    <string name="read_usernames_body">Say who wrote each comment</string>
+    <string name="playback_speed_title">Playback speed</string>
+    <string name="voice_quality_title">Voice quality</string>
+    <string name="voice_quality_fast">Fast</string>
+    <string name="voice_quality_best">Best</string>
+    <string name="narrator_voice_title">Narrator voice</string>
+    <string name="voice_pack_not_installed">This voice pack isn\'t installed, so Supertonic reads threads instead.</string>
+    <string name="voice_pack_preparing">Preparing these voices. They\'re ready once setup finishes.</string>
+    <string name="floating_player_title">Floating player</string>
+    <string name="floating_player_on">On</string>
+    <string name="floating_player_turn_on">Turn on</string>
+    <string name="how_to_use_title">How to use</string>
+    <string name="how_to_use_body">Share a Reddit thread to ThreadReader from any app, or paste a link above.</string>
+    <string name="about_line">Voices run on-device · Content via Redlib mirrors (%1$s)</string>
+
+    <!-- Floating player (HUD) -->
+    <string name="action_pause">Pause</string>
+    <string name="hud_drag_handle">Drag to move the floating player</string>
+    <string name="hud_mute_usernames">Mute author usernames</string>
+    <string name="hud_read_usernames">Read author usernames</string>
+    <string name="hud_collapse_transcript">Collapse transcript</string>
+    <string name="hud_expand_transcript">Expand transcript</string>
+    <string name="hud_dismiss">Close floating player</string>
+    <string name="hud_minimize">Minimize floating player</string>
+    <string name="hud_restore">Open floating player</string>
+    <string name="hud_fetching_thread">Fetching thread…</string>
+    <string name="hud_synthesizing">Generating…</string>
+    <string name="hud_synthesizing_progress">Generating (%1$d/%2$d)…</string>
+    <string name="hud_previous">Previous comment</string>
+    <string name="hud_next">Next comment</string>
+    <string name="hud_transcript_title">Thread transcript</string>
+    <string name="hud_transcript_loading">Loading thread transcript…</string>
+    <string name="hud_author">u/%1$s</string>
+    <string name="hud_op_badge">OP</string>
+
+    <!-- Playback notification and audio service -->
+    <string name="notification_channel_name">ThreadReader Audio Playback</string>
+    <string name="notification_channel_description">ThreadReader audio playback controls and status</string>
+    <string name="notification_default_text">Audio playback</string>
+    <string name="notification_action_previous">Previous</string>
+    <string name="notification_action_next">Next</string>
+    <string name="playback_loading_thread">Loading Reddit thread…</string>
+    <string name="playback_no_dialogue">No dialogue found</string>
+    <string name="playback_synthesis_failed">Failed to synthesize audio</string>
+    <string name="playback_processing_failed">Failed to process Reddit thread</string>
+    <string name="playback_thread_load_failed">Couldn\'t load thread. Mirrors may be down, try again.</string>
+    <string name="playback_system_speaker">System</string>
+    <string name="playback_generating_progress">Generating… %1$d/%2$d</string>
+</resources>

@@ -1,0 +1,527 @@
+{
+ "cases": [
+  {
+   "text": "Every Sunday, 7 a.m., the leaf blower starts. There are no leaves. It is July.",
+   "duration_ms": 6000,
+   "pause_ms": 250,
+   "lines": [
+    "Every Sunday, 7 a.m., the leaf blower starts.",
+    "There are no leaves.",
+    "It is July."
+   ],
+   "starts": [
+    40,
+    3391,
+    4880
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 41,
+     "line": 0
+    },
+    {
+     "ms": 3390,
+     "line": 0
+    },
+    {
+     "ms": 3391,
+     "line": 1
+    },
+    {
+     "ms": 3392,
+     "line": 1
+    },
+    {
+     "ms": 4879,
+     "line": 1
+    },
+    {
+     "ms": 4880,
+     "line": 2
+    },
+    {
+     "ms": 4881,
+     "line": 2
+    },
+    {
+     "ms": 5999,
+     "line": 2
+    },
+    {
+     "ms": 6500,
+     "line": 2
+    }
+   ]
+  },
+  {
+   "text": "I asked nicely. Twice.\nHe told me to buy earplugs!",
+   "duration_ms": 4000,
+   "pause_ms": 0,
+   "lines": [
+    "I asked nicely.",
+    "Twice.",
+    "He told me to buy earplugs!"
+   ],
+   "starts": [
+    40,
+    1261,
+    1750
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 41,
+     "line": 0
+    },
+    {
+     "ms": 1260,
+     "line": 0
+    },
+    {
+     "ms": 1261,
+     "line": 1
+    },
+    {
+     "ms": 1262,
+     "line": 1
+    },
+    {
+     "ms": 1749,
+     "line": 1
+    },
+    {
+     "ms": 1750,
+     "line": 2
+    },
+    {
+     "ms": 1751,
+     "line": 2
+    },
+    {
+     "ms": 3999,
+     "line": 2
+    },
+    {
+     "ms": 4500,
+     "line": 2
+    }
+   ]
+  },
+  {
+   "text": "Dr. Smith and Mr. J. Doe met e.g. here. Then they left... Why? \"Because.\" Fine.",
+   "duration_ms": 9000,
+   "pause_ms": 650,
+   "lines": [
+    "Dr. Smith and Mr. J. Doe met e.g. here.",
+    "Then they left...",
+    "Why?",
+    "\"Because.\"",
+    "Fine."
+   ],
+   "starts": [
+    40,
+    4335,
+    6207,
+    6648,
+    7749
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 41,
+     "line": 0
+    },
+    {
+     "ms": 4334,
+     "line": 0
+    },
+    {
+     "ms": 4335,
+     "line": 1
+    },
+    {
+     "ms": 4336,
+     "line": 1
+    },
+    {
+     "ms": 6206,
+     "line": 1
+    },
+    {
+     "ms": 6207,
+     "line": 2
+    },
+    {
+     "ms": 6208,
+     "line": 2
+    },
+    {
+     "ms": 6647,
+     "line": 2
+    },
+    {
+     "ms": 6648,
+     "line": 3
+    },
+    {
+     "ms": 6649,
+     "line": 3
+    },
+    {
+     "ms": 7748,
+     "line": 3
+    },
+    {
+     "ms": 7749,
+     "line": 4
+    },
+    {
+     "ms": 7750,
+     "line": 4
+    },
+    {
+     "ms": 8999,
+     "line": 4
+    },
+    {
+     "ms": 9500,
+     "line": 4
+    }
+   ]
+  },
+  {
+   "text": "It cost 3.50 at example.com today. Okay.",
+   "duration_ms": 3000,
+   "pause_ms": 250,
+   "lines": [
+    "It cost 3.50 at example.com today.",
+    "Okay."
+   ],
+   "starts": [
+    40,
+    2358
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 41,
+     "line": 0
+    },
+    {
+     "ms": 2357,
+     "line": 0
+    },
+    {
+     "ms": 2358,
+     "line": 1
+    },
+    {
+     "ms": 2359,
+     "line": 1
+    },
+    {
+     "ms": 2999,
+     "line": 1
+    },
+    {
+     "ms": 3500,
+     "line": 1
+    }
+   ]
+  },
+  {
+   "text": "No punctuation at all in this one",
+   "duration_ms": 2000,
+   "pause_ms": 0,
+   "lines": [
+    "No punctuation at all in this one"
+   ],
+   "starts": [
+    40
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 41,
+     "line": 0
+    },
+    {
+     "ms": 1999,
+     "line": 0
+    },
+    {
+     "ms": 2500,
+     "line": 0
+    }
+   ]
+  },
+  {
+   "text": "Wait… really?! (Yes.) “Of course.” Fin",
+   "duration_ms": 5000,
+   "pause_ms": 100,
+   "lines": [
+    "Wait…",
+    "really?!",
+    "(Yes.)",
+    "“Of course.”",
+    "Fin"
+   ],
+   "starts": [
+    40,
+    747,
+    1879,
+    2727,
+    4425
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 41,
+     "line": 0
+    },
+    {
+     "ms": 746,
+     "line": 0
+    },
+    {
+     "ms": 747,
+     "line": 1
+    },
+    {
+     "ms": 748,
+     "line": 1
+    },
+    {
+     "ms": 1878,
+     "line": 1
+    },
+    {
+     "ms": 1879,
+     "line": 2
+    },
+    {
+     "ms": 1880,
+     "line": 2
+    },
+    {
+     "ms": 2726,
+     "line": 2
+    },
+    {
+     "ms": 2727,
+     "line": 3
+    },
+    {
+     "ms": 2728,
+     "line": 3
+    },
+    {
+     "ms": 4424,
+     "line": 3
+    },
+    {
+     "ms": 4425,
+     "line": 4
+    },
+    {
+     "ms": 4426,
+     "line": 4
+    },
+    {
+     "ms": 4999,
+     "line": 4
+    },
+    {
+     "ms": 5500,
+     "line": 4
+    }
+   ]
+  },
+  {
+   "text": "Emoji 😀 count as two units. Second line here.",
+   "duration_ms": 3000,
+   "pause_ms": 0,
+   "lines": [
+    "Emoji 😀 count as two units.",
+    "Second line here."
+   ],
+   "starts": [
+    40,
+    1850
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 41,
+     "line": 0
+    },
+    {
+     "ms": 1849,
+     "line": 0
+    },
+    {
+     "ms": 1850,
+     "line": 1
+    },
+    {
+     "ms": 1851,
+     "line": 1
+    },
+    {
+     "ms": 2999,
+     "line": 1
+    },
+    {
+     "ms": 3500,
+     "line": 1
+    }
+   ]
+  },
+  {
+   "text": "Tiny. Clip.",
+   "duration_ms": 60,
+   "pause_ms": 250,
+   "lines": [
+    "Tiny.",
+    "Clip."
+   ],
+   "starts": [
+    0,
+    0
+   ],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 1
+    },
+    {
+     "ms": 39,
+     "line": 1
+    },
+    {
+     "ms": 40,
+     "line": 1
+    },
+    {
+     "ms": 1,
+     "line": 1
+    },
+    {
+     "ms": 59,
+     "line": 1
+    },
+    {
+     "ms": 560,
+     "line": 1
+    }
+   ]
+  },
+  {
+   "text": "   ",
+   "duration_ms": 1000,
+   "pause_ms": 0,
+   "lines": [],
+   "starts": [],
+   "probes": [
+    {
+     "ms": 0,
+     "line": 0
+    },
+    {
+     "ms": 39,
+     "line": 0
+    },
+    {
+     "ms": 40,
+     "line": 0
+    },
+    {
+     "ms": 999,
+     "line": 0
+    },
+    {
+     "ms": 1500,
+     "line": 0
+    }
+   ]
+  }
+ ]
+}

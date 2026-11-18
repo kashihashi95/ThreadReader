@@ -1,0 +1,1124 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="fixed_navbar">
+    <head>
+        
+            <title>
+    Ask Reddit...
+    
+</title>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta name="description" content="View on Redlib, an alternative private front-end to Reddit.">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+                <meta name="robots" content="noindex, nofollow">
+            
+		<!-- General PWA -->
+            <meta name="theme-color" content="#1F1F1F">
+		<!-- iOS Application -->
+            <meta name="apple-mobile-web-app-title" content="Redlib">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="default">
+		<!-- Android -->
+            <meta name="mobile-web-app-capable" content="yes">
+		<!-- iOS Logo -->
+            <link href="/touch-icon-iphone.png" rel="apple-touch-icon">
+		<!-- OpenSearch description file -->
+            <link rel="search" type="application/opensearchdescription+xml" title="Search Redlib" href="/opensearch.xml">
+		<!-- PWA Manifest -->
+            <link rel="manifest" type="application/json" href="/manifest.json">
+		<!-- RSS feed autodiscovery -->
+            
+            <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+            <link rel="stylesheet" type="text/css" href="/style.css?v=f3120f9">
+            <script src="/static/keyboardcommands.js?v=f3120f9"></script>
+            <script src="/autoplayVisible.js?v=f3120f9" defer></script>
+		<!-- Video quality -->
+            <div id="video_quality" data-value=""></div>
+        
+    </head><body class="
+                 
+                 
+                  
+                  fixed_navbar">
+        <div class="top_bars">
+            
+		<!-- NAVIGATION BAR -->
+            <nav class="
+                         fixed_navbar">
+                <div id="logo">
+                    <a id="redlib" href="/"><span id="red">red</span><span id="lib">lib.</span></a>
+                    
+    <details id="feeds">
+        <summary>Feeds</summary>
+        <div id="feed_list">
+            <p>MAIN FEEDS</p>
+            <a href="/">Home</a>
+            
+                <a href="/r/popular">Popular</a>
+                <a href="/r/all">All</a>
+            
+            
+        </div>
+    </details>
+
+                </div>
+                
+    <form action="/r/AskReddit/search" id="searchbox">
+        <input id="search" type="text" name="q" placeholder="Search" title="Search redlib" value="">
+        
+            <div id="inside">
+                <input type="checkbox" name="restrict_sr" id="restrict_sr" checked>
+                <label for="restrict_sr" class="search_label" title="Restrict search to this subreddit">in /r/AskReddit</label>
+            </div>
+        
+        <button class="submit">
+            <svg width="15" viewBox="10 0 100 100" fill="none" stroke-width="10" stroke-linecap="round">
+                <path d="M20 50 H100" />
+                <path d="M75 15 L100 50 L75 85" />
+                &rarr;
+            </svg>
+        </button>
+    </form>
+
+                <div id="links">
+                    <a id="reddit_link" href="#popup">
+                        <span>reddit</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 2L12 22"/>
+                            <path d="M2 6.70587C3.33333 8.07884 3.33333 11.5971 3.33333 11.5971M3.33333 19.647V11.5971M3.33333 11.5971C3.33333 11.5971 5.125 7.47817 8 7.47817C10.875 7.47817 12 8.85114 12 8.85114"/>
+                        </svg>
+                    </a>
+                    
+                        <div class="popup" id="popup">
+        <div class="popup-inner">
+            <h1>You are about to leave Redlib</h1>
+            <p>Do you want to continue?</p>
+            <p id="reddit_url">https://www.reddit.com/r/AskReddit/hot</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 639.24 563">
+                <defs>
+                    <style>.cls-1{fill:#000000;}.cls-2{fill:#f8aa00;}</style>
+                </defs>
+                <path class="cls-2" d="M322.03,0c1.95,2.5,4.88,.9,7.33,1.65,10.5,3.21,17.65,10.39,22.83,19.35,93.64,162.06,186.98,324.29,280.25,486.56,15.73,20.19,2.49,51.27-22.92,54.37-1.21,.19-2.72-.54-3.49,1.08H239.03c-70.33-2.43-141.6,.79-212.08-1.74-17.49-4.92-23.16-15.88-26.91-32.26l-.04-1.97C88.74,354.76,194.49,188.2,289.92,18.43c6.2-10.66,15.03-16.94,27.61-17.36,.95-.03,2.05,.18,2.51-1.07h2Zm-2.43,545c94.95-.02,189.9,.04,284.85-.02,11.84-.73,20.75-13.19,16.68-23.55C523.83,355.97,430.74,187.62,332.05,23.07c-7.93-9.02-22.2-6.58-27.23,3.22C230.28,156.11,155.21,285.64,80.41,415.31c-19.88,34.41-39.31,69.07-59.78,103.14-2.43,4.05-4.24,8.8-1.68,14.18,3.92,8.24,9.59,12.37,18.82,12.37,93.95,0,187.9,0,281.85,0Z"/>
+                <path class="cls-1" d="M319.61,545c-93.95,0-187.9,0-281.85,0-9.22,0-14.89-4.13-18.82-12.37-2.56-5.38-.75-10.13,1.68-14.18,20.47-34.07,39.9-68.73,59.78-103.14C155.21,285.64,230.28,156.11,304.82,26.29c5.03-9.8,19.3-12.24,27.23-3.22,98.7,164.55,191.79,332.9,289.1,498.35,4.06,10.36-4.85,22.82-16.68,23.55-94.94,.06-189.9,0-284.85,.02Zm.44-462.31C238.88,223.22,158.17,362.95,77.28,503h485.54c-80.94-140.13-161.61-279.79-242.77-420.31Z"/>
+                <path class="cls-2" d="M320.05,82.69c81.16,140.52,161.83,280.18,242.77,420.31H77.28C158.17,362.95,238.88,223.22,320.05,82.69Zm36.05,118.99c-.14-46.75-68.32-52.32-74.66-4.76,.73,51.49,9.2,102.97,12.63,154.49,1.18,13.14,10.53,21.81,23.32,22.76,13.12,.97,23.89-9.13,24.96-21.58,4.44-49.99,9.4-101.22,13.76-150.91Zm-36.56,271.4c48.8,.76,49.24-74.7-.31-75.47-53.45,3-46.02,78.12,.31,75.47Z"/>
+                <path class="cls-1" d="M356.1,201.67c-4.36,49.69-9.31,100.91-13.76,150.91-1.07,12.45-11.84,22.56-24.96,21.58-12.79-.95-22.14-9.63-23.31-22.76-3.43-51.52-11.9-103-12.63-154.49,6.33-47.53,74.51-42.03,74.66,4.76Z"/>
+                <path class="cls-1" d="M319.54,473.08c-46.34,2.64-53.75-72.47-.31-75.47,49.56,.78,49.1,76.24,.31,75.47Z"/>
+            </svg>
+            <a id="goback" href="#">No, go back!</a>
+            <a id="toreddit" href="https://www.reddit.com/r/AskReddit/hot" rel="nofollow">Yes, take me to Reddit</a>
+        </div>
+    </div>
+                    
+                    <a id="settings_link" href="/settings?return_to=/r/AskReddit/hot">
+                        <span>settings</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <title>settings</title>
+                            <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+		<!-- MAIN CONTENT -->
+        
+    <main>
+        
+            <div id="column_one">
+                <form id="sort">
+                    <div id="sort_options">
+                        
+                            
+        <a class="selected" href="/r/AskReddit/hot">
+            Hot
+        </a>
+    
+        <a  href="/r/AskReddit/new">
+            New
+        </a>
+    
+        <a  href="/r/AskReddit/top">
+            Top
+        </a>
+    
+        <a  href="/r/AskReddit/rising">
+            Rising
+        </a>
+    
+        <a  href="/r/AskReddit/controversial">
+            Controversial
+        </a>
+    
+                        
+                    </div>
+                    
+                </form>
+
+                
+
+                
+
+                
+
+                
+                    <div id="posts">
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xkbciw">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_8c5e2168">u/testuser_8c5e2168</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 14:15:46 UTC">4h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xkbciw/mossa_bas_lantern_asquiverwecobalt_lemon_yewmy/">Moss&#39;a bas lantern asquiver-we-cobalt lemon yew&#39;my upap needlepebb we sage?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="2279">
+            
+                2.3k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xkbciw/mossa_bas_lantern_asquiverwecobalt_lemon_yewmy/" class="post_comments" title="1170 comments">1.2k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xkcb0m">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_25ec07bf">u/testuser_25ec07bf</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 14:55:52 UTC">4h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xkcb0m/harbor_cactusop_an_needl_go_yew_velvet_mosaic_ink/">Harbor cactusop an needl go yew Velvet Mosaic? Ink us urn urn?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="1086">
+            
+                1.1k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xkcb0m/harbor_cactusop_an_needl_go_yew_velvet_mosaic_ink/" class="post_comments" title="1329 comments">1.3k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post post_blurred" id="1xk3ait">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_90f0cc51">u/testuser_90f0cc51</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 06:50:51 UTC">12h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk3ait/sage_an_ink_fern_ladder_orbit_violin_umb_vale/">Sage an ink fern ladder orbit violin umb vale lamp pe urn?</a> <small class="nsfw">NSFW</small>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="3117">
+            
+                3.1k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk3ait/sage_an_ink_fern_ladder_orbit_violin_umb_vale/" class="post_comments" title="1486 comments">1.5k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk2758">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_46211706">u/testuser_46211706</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 05:42:27 UTC">13h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk2758/valea_g_ember_100_vale_jade/">Vale’a g ember 100% vale jade?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="2700">
+            
+                2.7k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk2758/valea_g_ember_100_vale_jade/" class="post_comments" title="2010 comments">2.0k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk4hdl">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_721ab741">u/testuser_721ab741</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 08:06:13 UTC">11h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk4hdl/yewatyar_andunetunn_an_vortex_opala_ink_bramble/">Yewatyar andunetunn an Vortex, opal&#39;a ink bramble yew echo do lantern ink yew garden fab dragon zephyrtom lamp?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="1212">
+            
+                1.2k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk4hdl/yewatyar_andunetunn_an_vortex_opala_ink_bramble/" class="post_comments" title="273 comments">273 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk0rrw">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_54166ade">u/testuser_54166ade</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 04:20:27 UTC">14h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk0rrw/cove_reed_basketc_urna_quill_wren_nook_vale_e/">Cove reed basketc urn’a quill wren nook vale e tulip ca a apple?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="2062">
+            
+                2.1k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk0rrw/cove_reed_basketc_urna_quill_wren_nook_vale_e/" class="post_comments" title="830 comments">830 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk4zl0">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_914b2c35">u/testuser_914b2c35</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 08:39:12 UTC">10h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk4zl0/q_otter_nectar_urn_cobaltofvio_orbit_sto/">Q otter nectar urn cobaltofvio orbit sto hazelsadd urn velvet emb mossquil ink candlemarb ink yew yew as sprout. Echo he sage inyewcactus plumebet?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="870">
+            
+                870
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk4zl0/q_otter_nectar_urn_cobaltofvio_orbit_sto/" class="post_comments" title="788 comments">788 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xjwin3">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_3616dc34">u/testuser_3616dc34</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 00:46:06 UTC">18h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xjwin3/yewa_ink_coba_lantern_ladder_inkno_jade_gale_no/">Yew’a ink coba lantern ladder ink’no jade gale no lamp reed?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="3390">
+            
+                3.4k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xjwin3/yewa_ink_coba_lantern_ladder_inkno_jade_gale_no/" class="post_comments" title="2576 comments">2.6k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk71ic">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_a67ec933">u/testuser_a67ec933</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 10:45:53 UTC">8h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk71ic/reed_in_urn_lantern_opal_lily_lampbas_urna/">Reed in urn lantern opal lily lampbas urn&#39;a byvalevi thymelampin, cove cove orbit lamp kiln rocketbuck?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="411">
+            
+                411
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk71ic/reed_in_urn_lantern_opal_lily_lampbas_urna/" class="post_comments" title="269 comments">269 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk09pn">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_c138b385">u/testuser_c138b385</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 03:53:56 UTC">15h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk09pn/mossa_yew_bramble_bramble_urn_nook_oysterkett/">Moss&#39;a yew bramble, bramble, urn nook oysterkett lantern of a vortex to glider cove, bramble vale-island at gliderco?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="931">
+            
+                931
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk09pn/mossa_yew_bramble_bramble_urn_nook_oysterkett/" class="post_comments" title="869 comments">869 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk84q6">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_f9b605d9">u/testuser_f9b605d9</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 11:46:49 UTC">7h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk84q6/mykettleb_valefalco_sage_urn_ink_brook_urn/">Mykettleb Valefalco, sage urn ink brook urn Itfableve lantern?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="209">
+            
+                209
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk84q6/mykettleb_valefalco_sage_urn_ink_brook_urn/" class="post_comments" title="962 comments">962 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xjif8i">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_a2150b56">u/testuser_a2150b56</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 30 2026, 15:27:55 UTC">1d ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xjif8i/lantern_he_saddle_opala_urn_cove_galeribbonwa/">Lantern he Saddle, opal’a urn cove gale-ribbonwa mosaic a applek kiln ink cobaltvale a lantern?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="7131">
+            
+                7.1k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xjif8i/lantern_he_saddle_opala_urn_cove_galeribbonwa/" class="post_comments" title="2755 comments">2.8k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xkawud">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_b6aa7697">u/testuser_b6aa7697</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 13:57:41 UTC">5h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xkawud/lantern_duneisla_urn_of_no_sage_plume_apple_on/">Lantern duneisla: Urn of no sage plume apple on Onthymepe quiver cloud silver innoyarrow ink goinwaln tulipityar?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="86">
+            
+                86
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xkawud/lantern_duneisla_urn_of_no_sage_plume_apple_on/" class="post_comments" title="112 comments">112 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xjwf6a">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_3616dc34">u/testuser_3616dc34</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 00:41:36 UTC">18h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xjwf6a/inka_ink_fern_quiver_pepper_urnme_lily_echo_in/">Ink’a ink fern quiver pepper urn’me lily echo in fern kiln?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="913">
+            
+                913
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xjwf6a/inka_ink_fern_quiver_pepper_urnme_lily_echo_in/" class="post_comments" title="2708 comments">2.7k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xkd33u">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_c6cbc527">u/testuser_c6cbc527</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 15:27:16 UTC">3h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xkd33u/opalp_a_sage_yew_window_stonelil_it_yarrowpoc/">Opal&#39;p a sage yew window stonelil it yarrowpoc?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="62">
+            
+                62
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xkd33u/opalp_a_sage_yew_window_stonelil_it_yarrowpoc/" class="post_comments" title="447 comments">447 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xjtuii">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_8dcab7fa">u/testuser_8dcab7fa</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 30 2026, 22:48:32 UTC">20h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xjtuii/moss_me_ink_wren_dunehevio_brook_kiln_inkby_ston/">Moss me ink wren dunehevio brook kiln ink’by ston bucket?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="1267">
+            
+                1.3k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xjtuii/moss_me_ink_wren_dunehevio_brook_kiln_inkby_ston/" class="post_comments" title="2355 comments">2.4k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk7wc8">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_0820356e">u/testuser_0820356e</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 11:33:30 UTC">7h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk7wc8/lad_brook_inkon_fal_stonequa_onha_onlem_kayak_yew/">Lad brook ink’on fal stonequa onha, onlem kayak yew sage lamp quiverpa covetunn?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="108">
+            
+                108
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk7wc8/lad_brook_inkon_fal_stonequa_onha_onlem_kayak_yew/" class="post_comments" title="671 comments">671 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk90f4">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_b999f52e">u/testuser_b999f52e</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 12:31:19 UTC">6h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk90f4/jade_jaderee_lemonwren_isinnosaddl_quill_moss/">Jade jaderee lemon/wren isinnosaddl quill moss lemon IS lamp up wren lamp?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="82">
+            
+                82
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk90f4/jade_jaderee_lemonwren_isinnosaddl_quill_moss/" class="post_comments" title="332 comments">332 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xkd4pk">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_71587a5e">u/testuser_71587a5e</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 15:29:02 UTC">3h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xkd4pk/reed_do_yew_parrotem_jade_po_yew_echoa/">Reed do yew parrotem jade po yew echoa?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="46">
+            
+                46
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xkd4pk/reed_do_yew_parrotem_jade_po_yew_echoa/" class="post_comments" title="439 comments">439 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xjxjag">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_4710498c">u/testuser_4710498c</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 01:33:57 UTC">17h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xjxjag/islaa_thym_1010_gliderotter/">Isla&#39;a thym 10/10 gliderotter ?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="573">
+            
+                573
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xjxjag/islaa_thym_1010_gliderotter/" class="post_comments" title="833 comments">833 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xk4ti6">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_c8aef8f9">u/testuser_c8aef8f9</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 08:28:05 UTC">10h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xk4ti6/otter_yew_fable_it_lemonmea_river_sage_by_parro/">Otter &#39;yew&#39; fable it lemonmea river sage by parro?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="147">
+            
+                147
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xk4ti6/otter_yew_fable_it_lemonmea_river_sage_by_parro/" class="post_comments" title="232 comments">232 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xkh3dm">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_d983a3bb">u/testuser_d983a3bb</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 18:07:43 UTC">1h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xkh3dm/kiln_if_gale_urnapple_jade_nook_zephyr_nook_yew/">Kiln if gale urnapple jade nook zephyr nook yew meadow A?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="Hidden">
+            
+                •
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xkh3dm/kiln_if_gale_urnapple_jade_nook_zephyr_nook_yew/" class="post_comments" title="184 comments">184 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xkemez">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_d236bc2e">u/testuser_d236bc2e</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 16:29:12 UTC">2h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xkemez/dunea_urn_lantern_pebble_fern_dune_kettle_stone/">Dune&#39;a urn lantern pebble fern dune kettle stone lily urn ??</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="30">
+            
+                30
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xkemez/dunea_urn_lantern_pebble_fern_dune_kettle_stone/" class="post_comments" title="97 comments">97 comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xjfhpu">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_76b48174">u/testuser_76b48174</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 30 2026, 13:32:41 UTC">1d ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xjfhpu/ladder_yew_urn_40_willow_urn_holloworl_by_garden/">Ladder yew urn 40+, willow urn holloworl by garden, reed do appleglid jade ink usis’a bramble at silver falcon valefe opal gosaddle?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="4075">
+            
+                4.1k
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xjfhpu/ladder_yew_urn_40_willow_urn_holloworl_by_garden/" class="post_comments" title="3623 comments">3.6k comments</a>
+        </div>
+    </div>
+                            
+                        
+                            
+                                <hr class="sep" />
+                                <div class="post" id="1xjw3rq">
+        <p class="post_header">
+            <a class="post_subreddit" href="/r/AskReddit">r/AskReddit</a>
+            <span class="dot">&bull;</span>
+            <a class="post_author " href="/u/testuser_31a152e7">u/testuser_31a152e7</a>
+            <span class="dot">&bull;</span>
+            <span class="created" title="Oct 31 2026, 00:28:27 UTC">18h ago</span>
+            
+        </p>
+        <h2 class="post_title">
+            
+            <a href="/r/AskReddit/comments/1xjw3rq/dunea_lamp_lantern_of_pebble/">Dune&#39;a lamp lantern of Pebble?</a>
+        </h2>
+	<!-- POST MEDIA/THUMBNAIL -->
+        
+        <div class="post_score" title="494">
+            
+                494
+            
+            <span class="label"> Upvotes</span></div>
+        <div class="post_body post_preview">
+            
+        </div>
+
+        
+    
+
+        <div class="post_footer">
+            <a href="/r/AskReddit/comments/1xjw3rq/dunea_lamp_lantern_of_pebble/" class="post_comments" title="1032 comments">1.0k comments</a>
+        </div>
+    </div>
+                            
+                        
+                        
+                            <script src="/hls.min.js?v=f3120f9"></script>
+                            <script src="/playHLSVideo.js?v=f3120f9"></script>
+                        
+                    </div>
+                
+
+                <footer>
+                    
+
+                    
+                        <a href="?sort=hot&t=&after=t3_1xjw3rq" accesskey="N">NEXT</a>
+                    
+                </footer>
+            </div>
+        
+        
+            <aside>
+                
+                
+                    <details class="panel" id="subreddit" open>
+                        <summary id="subreddit_label">Subreddit</summary>
+                        
+                            <div id="top">
+                                <div>Posts</div>
+                                <a href="/r/AskReddit/wiki/index">Wiki</a>
+                            </div>
+                        
+                        <div id="sub_meta">
+                            <img loading="lazy" id="sub_icon" src="/style/t5_2qh1i/styles/communityIcon_p6kb2m6b185b1.png?width=64&#38;frame=1&#38;auto=webp&#38;s=8e8d7fabcc18322bde1c5a388488f19477ed60ed" alt="Icon for r/AskReddit">
+                            <h1 id="sub_title">Ask Reddit...</h1>
+                            <p id="sub_name">r/AskReddit</p>
+                            <p id="sub_description">a/Upjademar me ink umbra go yew ink bucket lantern-cobaltcac galeotter.</p>
+                            <div id="sub_details">
+                                <label>Members</label>
+                                <label>Active</label>
+                                <div title="0">0</div>
+                                <div title="0">0</div>
+                            </div>
+                            <div id="sub_actions">
+                                <div id="sub_subscription">
+                                    
+                                        <form action="/r/AskReddit/subscribe?redirect=r/AskReddit/hot" method="POST">
+                                            <button class="subscribe">Subscribe</button>
+                                        </form>
+                                    
+                                </div>
+                                <div id="sub_filter">
+                                    
+                                        <form action="/r/AskReddit/filter?redirect=r/AskReddit/hot" method="POST">
+                                            <button class="filter">Filter</button>
+                                        </form>
+                                    
+                                </div>
+                                
+                            </div>
+                        </details>
+                        
+                            <details class="panel" id="sidebar">
+                                <summary id="sidebar_label">Sidebar</summary>
+                                <div id="sidebar_contents">
+                                    <div class="md"><h6><a href="https://example.com/"> [ BRAMBLE ] </a></h6><h5><a href="https://example.com/">Falco</a>:</h5><ol><li><p>Ink gale opal a thyme ink bucket saddleap do rib kayak. Ink orbit ink lantern yew, violi, lemonkett lantern walnutsag. Ha gale no bramble up ink lantern. Jade rivercop/isacornhe by nee kettlero yew or ga ink ottermeo lantern. <a href="https://example.com/">dune &gt;&gt;</a></p></li><li><p>Fer opal ribbon yew yarrow quiver or covekay urn ink vortexwe me cand violinqua acorn. <a href="https://example.com/">reed &gt;&gt;</a></p></li><li><p>Parrotwev me yew echo-valer soasparrot kettleurn. <a href="https://example.com/">jade &gt;&gt;</a></p></li><li><p>Bramble, be dofalco, yew pebbleember sageston silverurnbr, echo to gale, jade parrot up a zin bramble a river mosaicd. <a href="https://example.com/">vale &gt;&gt;</a></p></li><li><p>Quartzket my urn wren lantern, ifjadein vale, me saddleismos marblega. <a href="https://example.com/">nook &gt;&gt;</a></p></li><li><p>[Fernmos] silver river upc urn-tunnel me quill at mosaicyarr bramble. <a href="https://example.com/">jigs &gt;&gt;</a></p></li><li><p>Noumbrazep maple, quill, ribbonwa, be lantern at ink lantern. <a href="https://example.com/">gale &gt;&gt;</a></p></li><li><p>Rive bramble clo brook to tunnel lantern pe pockethe quill&#x27; indoclo silversage so nookvioli is go of pocket hejigsawthy ga yew saddlepep as in ink cobaltmequ bu nectar. <a href="https://example.com/">echo &gt;&gt;</a></p></li><li><p>Lantern bramble gosaddleis violin so needle cove up bramble. <a href="https://example.com/">reed &gt;&gt;</a></p></li><li><p>Of ink gale lantern fernmarbleitis. <a href="https://example.com/">dune &gt;&gt;</a></p></li><li><p>Fern, violinu-brooklant bramble, ink quill bramble ink yew nookhelan. <a href="https://example.com/">wren &gt;&gt;</a></p></li><li><p>Ink bramble dune my lantern do Dobespr ki opal us po tunnel anviolinwe by ink cove sage if kay wec. <a href="https://example.com/">kiln &gt;&gt;</a></p></li></ol><h5>Vi ink fable gale silv ink walnutquill, yew echo no do cobaltfalcong sage, candle ki isl oremberi at <a href="https://example.com/">bramble yew cove</a>, to&#x27;us lemon so zinn.</h5><hr><h4>Reed ze ink:</h4><blockquote><h2><a href="https://example.com/">[Lantern]</a></h2></blockquote><h3>Ink a [Thymeke] nook yew is hollowgar echo opal go a lantern, is-river-ladd quiver.</h3><ul><li><p></p></li></ul><h4>Candle river it sproutc:</h4><p><a href="https://example.com/">Urn quill</a> <a href="https://example.com/">Bramble lemon</a> <a href="https://example.com/">Harborquar</a> <a href="https://example.com/">Kettleif sage</a> <a href="https://example.com/">Lilyappl</a></p><ul><li><p></p></li></ul><h3>Needle ink lantern jade at spro needledr. &gt;!stoneb lantern dune!&lt;</h3><ul><li><p></p></li></ul><h4>Orbit galeneedle ink bucke lamp:</h4><table><thead><tr><th align="left">Bramble</th><th align="left">Quiverquar</th></tr></thead><tbody><tr><td align="left"><a href="https://example.com/">Parrot ink Jigsawlemo</a></td><td align="left"><a href="https://example.com/">Yew Candle</a></td></tr><tr><td align="left"><a href="https://example.com/">Yarrowgal Myiscandl</a></td><td align="left"><a href="https://example.com/">Maplela Lilyneedle</a></td></tr><tr><td align="left"><a href="https://example.com/">Galejade &amp; Zinniasilv</a></td><td align="left"><a href="https://example.com/">Reed He Ifcactus Velv</a></td></tr><tr><td align="left"><a href="https://example.com/">Nectar/Cove</a></td><td align="left"><a href="https://example.com/">Kiln Toechousdo</a></td></tr></tbody></table><ul><li><p></p></li></ul><h3>Dune fern ink mapleyarrow? <a href="https://example.com/">Opal a reed!</a></h3><p><a href="https://example.com/"></a></p></div>
+					
+                                </div>
+                            </details>
+                        
+                
+            </aside>
+        
+    </main>
+
+
+		<!-- FOOTER -->
+        
+            <footer>
+                <div class="footer-buttons">
+                    <p><a id="source" href="https://github.com/Nachtalb/redlib" title="View source code"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>f3120f9</a>&emsp;<a href="/info" title="View instance information">ⓘ View instance info</a></p>
+                </div>
+            </footer>
+        
+    </body>
+</html>
