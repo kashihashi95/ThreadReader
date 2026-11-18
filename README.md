@@ -1,12 +1,19 @@
 # ThreadReader
 
+<p align="center"><img src="docs/media/threadreader-now-playing.png" width="320" alt="ThreadReader Now Playing screen with live captions on a phone"></p>
+
 An Android app that reads Reddit threads aloud (post and comments) with an on-device neural voice, so you can listen to Reddit like a podcast.
 
 ## The problem it solves
 
 Long Reddit threads are good listening but bad reading on a phone screen, and the phone's built-in text-to-speech reads them badly: usernames, acronyms, links and run-on comments come out as noise, and it stops when the screen locks. ThreadReader cleans the text up for speech, generates natural-sounding audio entirely on the phone with the Supertonic model, and plays it as a proper media session with lock-screen controls, captions and a playlist of your subreddits.
 
-<!-- SCREENSHOT: the Now Playing screen with captions on a phone, plus the lock-screen media notification; ideally a short screen recording with audio of a thread being read -->
+<p>
+  <img src="docs/media/threadreader-playback.gif" width="280" alt="ThreadReader reading an r/AskReddit thread aloud, with the current line highlighted in the captions">
+  <img src="docs/media/threadreader-settings.png" width="280" alt="ThreadReader settings: read usernames, playback speed, narrator voice picker and voice quality">
+</p>
+
+[Watch the demo with audio](docs/media/threadreader-demo.mp4) (22 s, MP4)
 
 ## Features
 
